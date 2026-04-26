@@ -1,16 +1,32 @@
-# React + Vite
+# 🖥️ Vaultrix Frontend: The User Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The primary user interface for the Vaultrix platform, built with modern web technologies and optimized for high performance and premium aesthetics.
 
-Currently, two official plugins are available:
+## ⚡ Features
+- **Modern UI**: Vibrant dark-mode aesthetics with glassmorphism.
+- **Responsive Design**: Seamless experience across mobile and desktop.
+- **Optimized Builds**: Built with Vite and served via an optimized Nginx multi-stage Docker image.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Framework**: Javascript / Vite
+- **Styling**: Vanilla CSS (Custom Design System)
+- **Deployment**: Nginx Alpine
 
-## React Compiler
+## 🧪 Development
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 🛡️ Security & Quality
+This repository is part of the Vaultrix Secure Software Development Lifecycle (SDLC):
+- **SonarQube**: Static analysis & Quality Gate.
+- **Snyk**: Open-source vulnerability scanning.
+- **Trivy**: Container image security scanning.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🤝 Support
+For internal support, please reach out to the DevOps team or open an issue in the **Vaultrix-Helm** repository.
+
+---
+© 2026 Vaultrix Platform. All rights reserved.
